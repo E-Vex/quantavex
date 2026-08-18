@@ -13,10 +13,10 @@ To build your own copy:
 git clone --branch esr153 https://github.com/mozilla-firefox/firefox.git
 cd firefox
 ```
-
+-patches
 2. Apply the patch:
 ```
-git am /path/to/quantavex-patches/*.patch
+git am /path/to/quantavex/*.patch
 ```
 
 3. Build the project by running these commands from the project root after applying the patch:
